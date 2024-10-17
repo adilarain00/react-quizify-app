@@ -1,3 +1,4 @@
+/* Base Styles (Desktop First Approach) */
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
 
 :root {
@@ -265,112 +266,102 @@ progress {
   padding: 0.8rem;
 }
 
-@media screen and (max-width: 700px) {
-  .app-header h1 {
-    font-size: 35px;
-  }
+/* Media Queries */
 
-  .app-header img {
-    width: 50px;
+/* Small Devices (up to 576px) */
+@media (max-width: 576px) {
+  body {
+    padding: 2rem;
   }
 
   .app-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    width: 40rem;
+    width: 90%;
+    flex-direction: column;
+    margin-bottom: 6rem;
   }
 
-  .start h2 {
-    font-size: 2.6rem;
-    text-align: center;
+  .app-header img {
+    width: 5rem;
+    padding-bottom: 2rem;
   }
 
-  .start h3 {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .progress {
-    justify-content: space-around;
-  }
-
-  progress {
+  .main {
     width: 100%;
   }
 
-  .question {
-    text-align: center;
-    padding: 0 6rem;
+  h1 {
+    font-size: 3rem;
   }
 
-  .options {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  h2 {
+    font-size: 2.8rem;
   }
 
-  .timer {
-    margin-left: 3rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .app-header {
-    gap: 1rem;
-    margin-left: 6rem;
+  h3 {
+    font-size: 2rem;
   }
 
-  .app-header h1 {
-    font-size: 25px;
-  }
-
-  .app-header img {
-    width: 30px;
-  }
-
-  .start {
-    margin-left: 8rem;
-  }
-
-  .start h2 {
-    font-size: 2.2rem;
-    text-align: center;
-  }
-
-  .start h3 {
-    font-size: 1.7rem;
-  }
-
-  .progress {
-    width: 80%;
-    margin-left: 8rem;
-  }
-
-  .question {
-    text-align: center;
-    width: 90%;
-    margin-left: 7rem;
-  }
-
-  .timer {
-    margin-left: 9.2rem;
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
   }
 
   .result {
-    padding: 2rem 0;
-    font-size: 1.8rem;
-    margin-left: 9rem;
+    font-size: 1.2rem;
+    padding: 0.6rem 3rem;
+  }
+}
+
+/* Tablets (576px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    padding: 2.4rem;
   }
 
-  .result span {
+  .app-header {
+    width: 80%;
+    margin-bottom: 6rem;
+  }
+
+  .app-header img {
+    width: 6rem;
+  }
+
+  .main {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
     font-size: 2.2rem;
   }
 
-  .highscore {
-    margin-left: 10rem;
+  .btn {
+    font-size: 1.8rem;
+  }
+
+  .result {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
   }
 }
