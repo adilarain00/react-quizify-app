@@ -1,4 +1,6 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
+import questionsData from "../data/questions.json"; // Import the questions directly
+
 const QuizContext = createContext();
 
 const SECS_PER_QUESTION = 30;
@@ -65,7 +67,7 @@ function reducer(state, action) {
       };
 
     default:
-      throw new Error("Action unkonwn");
+      throw new Error("Action unknown");
   }
 }
 
@@ -81,11 +83,13 @@ function QuizProvider({ children }) {
     0
   );
 
-  useEffect(function () {
-    fetch("http://localhost:9000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
+  useEffect(() => {
+    try {
+      // Directly load questions from questions.json
+      dispatch({ type: "dataReceived", payload: questionsData.questions });
+    } catch (err) {
+      dispatch({ type: "dataFailed" });
+    }
   }, []);
 
   return (
