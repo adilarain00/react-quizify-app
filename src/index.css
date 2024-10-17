@@ -264,3 +264,113 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+@media screen and (max-width: 700px) {
+  .app-header h1 {
+    font-size: 35px;
+  }
+
+  .app-header img {
+    width: 50px;
+  }
+
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 40rem;
+  }
+
+  .start h2 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .start h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .progress {
+    justify-content: space-around;
+  }
+
+  progress {
+    width: 100%;
+  }
+
+  .question {
+    text-align: center;
+    padding: 0 6rem;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .app-header {
+    gap: 1rem;
+    margin-left: 6rem;
+  }
+
+  .app-header h1 {
+    font-size: 25px;
+  }
+
+  .app-header img {
+    width: 30px;
+  }
+
+  .start {
+    margin-left: 8rem;
+  }
+
+  .start h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .start h3 {
+    font-size: 1.7rem;
+  }
+
+  .progress {
+    width: 80%;
+    margin-left: 8rem;
+  }
+
+  .question {
+    text-align: center;
+    width: 90%;
+    margin-left: 7rem;
+  }
+
+  .timer {
+    margin-left: 9.2rem;
+  }
+
+  .result {
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    margin-left: 9rem;
+  }
+
+  .result span {
+    font-size: 2.2rem;
+  }
+
+  .highscore {
+    margin-left: 10rem;
+  }
+}

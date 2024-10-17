@@ -8,7 +8,7 @@ function Question() {
   console.log(question);
 
   return (
-    <div>
+    <div className="question">
       <h4>{question.question}</h4>
       <Options question={question} />
     </div>
