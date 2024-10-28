@@ -1,5 +1,7 @@
 # React Quizz App
 
+<img src="./public/react-quizz.png" style="height: 400px; width: 100%; border-radius: 10px" />
+
 ### Live Demo: https://react-quizz-app-mauve.vercel.app/
 
 ### Description:
