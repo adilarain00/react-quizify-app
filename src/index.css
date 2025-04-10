@@ -48,11 +48,15 @@ body {
   align-items: center; 
   gap: 1rem; 
   font-size: 1.6rem; 
-  margin-bottom: 16px;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  letter-spacing: 18px;
 }
 
 .app-header img {
-  width: 60px; 
+  width: 70px; 
   height: auto; 
 }
 
