@@ -45,7 +45,7 @@ body {
 /* Header */
 .app-header {
   width: 100%;
-  max-width: 66rem;
+  max-width: 80rem;
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -61,12 +61,15 @@ body {
   align-items: center;
   padding: 2rem;
   background-color: var(--color-dark);
-  color: var(--color-light);
+  color: rgba(255, 255, 255, 0.7); /* Light gray color */
   font-size: 1.4rem;
   margin-top: 4rem;
   flex-wrap: wrap;
   gap: 1rem;
   border-radius: 20px;
+  width: 80%; /* Set the width to 80% */
+  margin-left: auto; /* Center the footer */
+  margin-right: auto; /* Center the footer */
 }
 
 .footer-left,
@@ -93,7 +96,7 @@ body {
 }
 
 .footer-right a {
-  color: var(--color-light);
+  color: rgba(255, 255, 255, 0.7); /* Light gray color */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -102,6 +105,7 @@ body {
 .footer-right a:hover {
   color: var(--color-theme);
 }
+
 
 
 /* Error */
