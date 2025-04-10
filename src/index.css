@@ -44,15 +44,17 @@ body {
 
 /* Header */
 .app-header {
-  width: 100%;
-  max-width: 80rem;
-  margin-bottom: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 1.6rem;
+  align-items: center; /* Aligns the logo and text in a line */
+  gap: 1rem; /* Adds space between the logo and text */
+  font-size: 2rem; /* Adjust the font size as needed */
 }
+
+.app-header img {
+  width: 40px; /* Adjust the image size as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 
 /* Footer */
 .footer {
