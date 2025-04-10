@@ -1,4 +1,3 @@
-/* Base Styles (Desktop First Approach) */
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
 
 :root {
@@ -45,12 +44,65 @@ body {
 
 /* Header */
 .app-header {
-  width: 66rem;
+  width: 100%;
+  max-width: 66rem;
   margin-bottom: 4rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  gap: 1.6rem;
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-size: 1.4rem;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-left {
+  text-align: left;
+  font-weight: 600;
+}
+
+.footer-center {
+  font-size: 1.4rem;
+}
+
+.footer-right {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+}
+
+.footer-right a {
+  color: var(--color-light);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-right a:hover {
+  color: var(--color-theme);
+}
+
 
 /* Error */
 .error {
@@ -202,6 +254,7 @@ progress {
   margin-bottom: 4.8rem;
 }
 
+/* Loader */
 .loader-container {
   display: flex;
   flex-direction: column;
@@ -222,7 +275,7 @@ progress {
   border-radius: 100px;
 }
 
-/* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+/* Loader */
 .loader {
   width: 50px;
   height: 24px;
@@ -250,7 +303,7 @@ progress {
   }
 }
 
-/* First counter example */
+/* Counter */
 .counter {
   display: flex;
   flex-direction: column;
@@ -267,8 +320,6 @@ progress {
 }
 
 /* Media Queries */
-
-/* Small Devices (up to 576px) */
 @media (max-width: 576px) {
   body {
     padding: 2rem;
@@ -310,9 +361,13 @@ progress {
     font-size: 1.2rem;
     padding: 0.6rem 3rem;
   }
+
+  .footer {
+    font-size: 1.2rem;
+    padding: 1.2rem 0.8rem;
+  }
 }
 
-/* Tablets (576px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
   body {
     padding: 2.4rem;

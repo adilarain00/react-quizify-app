@@ -1,4 +1,4 @@
-# React Quizz App
+# React Quizify App
 
 <img src="./public/react-quizz.png" style="height: 400px; width: 100%; border-radius: 10px" />
 
@@ -6,7 +6,7 @@
 
 ### Description:
 
-The React Quiz App is designed to test users' knowledge of React.js through 15 multiple-choice questions (MCQs). It covers key concepts such as components, hooks, and state management, providing an engaging way for developers to assess their React mastery.
+The React Quizify App is designed to test users' knowledge of React.js through 15 multiple-choice questions (MCQs). It covers key concepts such as components, hooks, and state management, providing an engaging way for developers to assess their React mastery.
 
 ### Functionalities:
 

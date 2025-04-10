@@ -11,6 +11,7 @@ import Progress from "./Progress";
 import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
+import AppFooter from "./AppFooter";
 
 export default function App() {
   const { status } = useQuiz();
@@ -35,6 +36,8 @@ export default function App() {
         )}
         {status === "finished" && <FinishScreen />}
       </Main>
+
+      <AppFooter />
     </div>
   );
 }
