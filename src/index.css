@@ -28,7 +28,6 @@ body {
   color: var(--color-light);
   background-color: var(--color-darkest);
   padding: 3.2rem;
-  height: 100%;
 }
 
 /* Container */
@@ -67,16 +66,13 @@ body {
   background-color: var(--color-dark);
   color: rgba(255, 255, 255, 0.7); /* Light gray color */
   font-size: 1.4rem;
+  margin-top: 4rem;
   flex-wrap: wrap;
   gap: 1rem;
   border-radius: 20px;
   width: 80%; /* Set the width to 80% */
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0; /* Fixes footer to the bottom */
-  left: 0;
-  right: 0;
+  margin-left: auto; /* Center the footer */
+  margin-right: auto; /* Center the footer */
 }
 
 .footer-left,
