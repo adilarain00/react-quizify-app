@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css"; // or wherever your CSS is
 
 function AppFooter() {
   return (
