@@ -2,7 +2,7 @@
 
 <img src="./public/Quizify.PNG" style="height: 400px; width: 100%; border-radius: 10px" />
 
-### Live Demo: https://react-quizify-app.vercel.app/
+### Live Demo: https://quizify123-app.vercel.app/
 
 ### Description:
 
