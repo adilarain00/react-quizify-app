@@ -34,7 +34,8 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .main {
