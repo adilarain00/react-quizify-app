@@ -417,6 +417,11 @@ progress {
   .result {
     font-size: 1.6rem;
   }
+
+  .footer {
+    width: 90%; 
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 350px) {
@@ -430,5 +435,13 @@ progress {
 
   h3 {
     font-size: 1.4rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
   }
 }
