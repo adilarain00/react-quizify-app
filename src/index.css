@@ -48,17 +48,20 @@ body {
   align-items: center; 
   gap: 1rem; 
   font-size: 1.5rem; 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .app-header h1 {
   letter-spacing: 12px;
 }
 
-.app-header img {
-  width: 70px; 
-  height: auto; 
-  padding-right: 5px;
+.start-text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  width: 150%;
+  color: #cfd2d6;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -114,8 +117,6 @@ body {
   color: var(--color-theme);
 }
 
-
-
 /* Error */
 .error {
   text-align: center;
@@ -138,13 +139,13 @@ h1 {
 
 h2 {
   font-size: 3.6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
   font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 h4 {

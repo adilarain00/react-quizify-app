@@ -1,13 +1,22 @@
-# React Quizify App
+# 🧠 React Quizify App – Test Your React Knowledge
 
-<img src="./public/Quizify.PNG" style="height: 400px; width: 100%; border-radius: 10px" />
+<!-- Add screenshots or a demo GIF here if available -->
+![Dashboard Screenshot](./public/Quizify.PNG)
 
-### Live Demo: https://quizify123-app.vercel.app/
+## 📖 Description
 
-### Description:
+**React Quizify** is an interactive quiz application built with **React.js**. It challenges users with 15 multiple-choice questions (MCQs) that cover essential React concepts such as components, hooks, state management, and more. Ideal for both beginners and intermediate developers, the app helps reinforce React fundamentals in a fun and engaging way.
 
-The React Quizify App is designed to test users' knowledge of React.js through 15 multiple-choice questions (MCQs). It covers key concepts such as components, hooks, and state management, providing an engaging way for developers to assess their React mastery.
+At the end of the quiz, users receive a detailed score summary, helping them evaluate their performance and track their learning progress.
 
-### Functionalities:
+## 🧩 Features
+- 🧾 15 randomized multiple-choice questions  
+- ✅ Real-time score calculation and feedback  
+- 🧠 Covers React hooks, components, state, and more  
+- 🎯 Result display with correct answers and total score  
+- ⚡ Smooth and responsive user experience  
 
-The app allows users to answer 15 MCQs and view their marks and score at the end. It calculates the score based on correct answers and displays feedback, making it a fun and informative tool for learning React.
+## 🛠 Tech Stack
+- **Frontend:** React, CSS Modules  
+- **State Management:** useState, useReducer, Context API  
+- **Other Tools:** useEffect, conditional rendering, prop drilling  
